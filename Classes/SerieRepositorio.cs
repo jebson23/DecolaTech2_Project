@@ -10,7 +10,6 @@ namespace DIO.Series
     public class SerieRepositorio : IRepositorio<Serie>
     {
         private static DataBaseContext DbConnection = new DataBaseContext();
-        List<Serie> listaSeries = new List<Serie>();
         public void Atualizar(Serie entidade)
         {
             DynamicParameters parameters = new DynamicParameters();
