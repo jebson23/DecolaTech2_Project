@@ -6,7 +6,7 @@ namespace DIO.Series.Data
 {
     public class DataBaseContext
     {
-        private string ConnectionString = "Server=192.168.18.89;Port=3306;User=JEBSON;Password=;Database=JEBSON_DATABASE;";
+        private string ConnectionString = "";
         private IDbTransaction? transaction;
         private IDbConnection? connection;
 
